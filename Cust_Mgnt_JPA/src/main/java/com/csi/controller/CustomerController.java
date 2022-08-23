@@ -60,4 +60,10 @@ public class CustomerController {
     public String sayHello(){
         return "WELCOME TO CSI";
     }
+
+    //Created API for message
+    @GetMapping("/say")
+    public String hello(){
+        return "FULL STACK";
+    }
 }
